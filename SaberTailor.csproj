@@ -76,13 +76,18 @@
       <HintPath>$(GameDirPath)Beat Saber_Data\Managed\GameplayCore.dll</HintPath>
       <Private>False</Private>
     </Reference>
-        <Reference Include="Hive.Versioning">
+    <Reference Include="Hive.Versioning">
       <HintPath>$(GameDirPath)Libs\Hive.Versioning.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="HMLib">
       <HintPath>$(GameDirPath)Beat Saber_Data\Managed\HMLib.dll</HintPath>
       <Private>False</Private>
+    </Reference>
+    <Reference Include="IPA.Injector, Version=4.2.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <Private>False</Private>
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Beat Saber_Data\Managed\IPA.Injector.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="IPA.Loader">
       <HintPath>$(GameDirPath)Beat Saber_Data\Managed\IPA.Loader.dll</HintPath>
@@ -99,6 +104,11 @@
     <Reference Include="SemVer">
       <HintPath>$(GameDirPath)Libs\SemVer.dll</HintPath>
       <Private>False</Private>
+    </Reference>
+    <Reference Include="SiraUtil">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Beat Saber\Plugins\SiraUtil.dll</HintPath>
+      <Private>False</Private>
+      <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="System" />
     <Reference Include="Unity.TextMeshPro">
